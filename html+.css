@@ -344,6 +344,7 @@ body {
 }
 
 .FOOTER p {
+    width: 150px;
     position: relative;
     left: 21%;
     font-family: Rajdhani;
