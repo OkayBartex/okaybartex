@@ -339,4 +339,13 @@ body {
     box-shadow: 10px 10px 20px 0px black;
 }
 
-/* START OF PAGE 2 STYLES */
+.FOOTER {
+    background: rgba(100, 100, 100, 1);
+    text-align: center;
+}
+
+.FOOTER p {
+    font-family: Rajdhani;
+    font-size: 21px;
+    color: rgba(200, 200, 200, 1);
+}
