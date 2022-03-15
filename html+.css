@@ -54,7 +54,7 @@ body {
     position: relative;
     top: 6px;
     height: 2.1px;
-    width: 45px;
+    width: 64px;
     background-color: rgb(255, 255, 255);
     transition: .5s;
 }
@@ -64,7 +64,7 @@ body {
     position: relative;
     top: 6px;
     height: 2.1px;
-    width: 32px;
+    width: 48px;
     background-color: rgb(255, 255, 255);
     transition: .5s;
 }
@@ -74,7 +74,7 @@ body {
     position: relative;
     top: 6px;
     height: 2.1px;
-    width: 109px;
+    width: 124px;
     background-color: rgb(255, 255, 255);
     transition: .5s;
 }
@@ -84,7 +84,7 @@ body {
     position: relative;
     top: 6px;
     height: 2.1px;
-    width: 92.5px;
+    width: 67px;
     background-color: rgb(255, 255, 255);
     transition: .5s;
 }
