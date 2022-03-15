@@ -1,0 +1,342 @@
+/* START OF DEFAULT STYLES */
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+
+* {
+    /* overflow: hidden; */
+    overflow: visible;
+    margin: 0 auto;
+    animation: load 1s;
+    transition: .5s;
+}
+
+body {
+    overflow: visible;
+}
+
+@keyframes load {
+    0% {
+        visibility: hidden;
+        opacity: 0;
+    }
+}
+
+/* END OF DEFAULT STYLES */
+
+/* START OF MENU STYLES */
+
+.MENU {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 10px 30px rgb(37, 37, 37);
+    z-index: 3;
+}
+
+.MENU_SPACE {
+    width: 40%;
+}
+
+.MENU a {
+    text-decoration: none;
+    color: #0956e9;
+    font-family: Rajdhani;
+    font-size: 24px;
+    position: relative;
+    top: 10px;
+    transition: .5s;
+}
+
+.OP_1_D {
+    border-radius: 2.1px;
+    position: relative;
+    top: 6px;
+    height: 2.1px;
+    width: 45px;
+    background-color: rgb(255, 255, 255);
+    transition: .5s;
+}
+
+.OP_2_D {
+    border-radius: 2.1px;
+    position: relative;
+    top: 6px;
+    height: 2.1px;
+    width: 32px;
+    background-color: rgb(255, 255, 255);
+    transition: .5s;
+}
+
+.OP_3_D {
+    border-radius: 2.1px;
+    position: relative;
+    top: 6px;
+    height: 2.1px;
+    width: 109px;
+    background-color: rgb(255, 255, 255);
+    transition: .5s;
+}
+
+.OP_4_D {
+    border-radius: 2.1px;
+    position: relative;
+    top: 6px;
+    height: 2.1px;
+    width: 92.5px;
+    background-color: rgb(255, 255, 255);
+    transition: .5s;
+}
+
+.MENU a:hover {
+    color: #268cec;
+}
+
+.MENU a:hover + .OP_1_D {
+    background-color: #0956e9;
+}
+
+.MENU a:hover + .OP_2_D {
+    background-color: #0956e9;
+}
+
+.MENU a:hover + .OP_3_D {
+    background-color: #0956e9;
+}
+
+.MENU a:hover + .OP_4_D {
+    background-color: #0956e9;
+}
+
+.MENU_IMG {
+    position: relative;
+    top: 12px;
+    right: 0px;
+    height: 50px;
+    width: 210px;
+    background-image: url("menu_logo.png");
+    background-repeat: no-repeat;
+    background-size: 210px;
+}
+
+/* END OF MENU STYLES */
+
+/* START OF PAGE 1 STYLES */
+
+.PAGE_1 {
+    height: 621px;
+    background-image: url("PAGE_1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.PAGE_1_TITTLE {
+    /* border: solid red; */
+    position: relative;
+    top: 60%;
+    right: 24%;
+    width: 34%;
+    height: 30%;
+}
+
+.PAGE_1_TITTLE p {
+    /* width: 435.442px; */
+    font-family: Rajdhani;
+    font-size: 60px;
+    color: white;
+    /* position: relative;
+    top: 65%;
+    left: 10%; */
+}
+
+.PAGE_1_TITTLE button {
+    cursor: pointer;
+    /* position: relative;
+    top: 65%;
+    left: 10%; */
+    border: none;
+    border-top-left-radius: 7.5px;
+    border-bottom-right-radius: 7.5px;
+    background: rgba(255, 255, 255, .25);
+    color: black;
+    font-family: Rajdhani;
+    font-size: 26px;
+    width: 250px;
+    height: 50px;
+}
+
+.PAGE_1_TITTLE button:hover {
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 7.5px;
+    border-top-right-radius: 7.5px;
+    color: #0956e9;
+    background: rgba(255, 255, 255, 1);
+}
+
+/* END OF PAGE 1 STYLES */
+
+/* START OF PAGE 2 STYLES */
+
+.PAGE_2 {
+    /* display: flex; */
+    background-image: url("PAGE_2.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 750px;
+    font-family: Rajdhani;
+}
+
+.PAGE_2_TITTLE p {
+    position: relative;
+    top: 21px;
+    font-size: 69px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.KON_1 a {
+    cursor: auto;
+}
+
+.KON_1 {
+    backdrop-filter: blur(21px);
+    border-radius: 7.5px;
+    float: left;
+    height: 350px;
+    width: 350px;
+    box-shadow: 0px 0px 10px 0px black;
+    position: relative;
+    left: 10%;
+    top: 15%;
+}
+
+.KON_1_TITTLE {
+    position: relative;
+    top: 5%;
+    text-align: center;
+    font-size: 34px;
+    color: #0956e9;
+}
+
+.KON_1_TEXT {
+    position: relative;
+    top: 5%;
+    margin-left: 34px;
+    margin-right: 34px;
+    font-size: 21px;
+    color: rgba(100, 100, 100, 1);
+}
+
+.KON_1 button {
+    cursor: pointer;
+    border: none;
+    border-top-left-radius: 7.5px;
+    border-bottom-right-radius: 7.5px;
+    background: #0956e9;
+    color: black;
+    font-family: Rajdhani;
+    font-size: 26px;
+    width: 250px;
+    height: 50px;
+    margin-left: 34px;
+    margin-right: 34px;
+    position: relative;
+    left: 4.5%;
+    top: 21%;
+}
+
+.KON_1 button:hover {
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 7.5px;
+    border-top-right-radius: 7.5px;
+}
+
+.KON_2 button {
+    cursor: pointer;
+    border: none;
+    border-top-left-radius: 7.5px;
+    border-bottom-right-radius: 7.5px;
+    background: #0956e9;
+    color: black;
+    font-family: Rajdhani;
+    font-size: 26px;
+    width: 250px;
+    height: 50px;
+    margin-left: 34px;
+    margin-right: 34px;
+    position: relative;
+    left: 4.5%;
+    top: 21%;
+}
+
+.KON_2 button:hover {
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 7.5px;
+    border-top-right-radius: 7.5px;
+}
+
+.KON_3 button {
+    cursor: pointer;
+    border: none;
+    border-top-left-radius: 7.5px;
+    border-bottom-right-radius: 7.5px;
+    background: #0956e9;
+    color: black;
+    font-family: Rajdhani;
+    font-size: 26px;
+    width: 250px;
+    height: 50px;
+    margin-left: 34px;
+    margin-right: 34px;
+    position: relative;
+    left: 4.5%;
+    top: 21%;
+}
+
+.KON_3 button:hover {
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 7.5px;
+    border-top-right-radius: 7.5px;
+}
+
+.KON_1:hover {
+    box-shadow: -10px 10px 20px 0px black;
+}
+
+.KON_2 {
+    backdrop-filter: blur(21px);
+    border-radius: 7.5px;
+    float: center;
+    height: 350px;
+    width: 350px;
+    box-shadow: 0px 0px 10px 0px black;
+    position: relative;
+    top: 15%;
+}
+
+.KON_2:hover {
+    box-shadow: 0px 10px 20px 0px black;
+}
+
+.KON_3 {
+    backdrop-filter: blur(21px);
+    border-radius: 7.5px;   
+    float: right;
+    height: 350px;
+    width: 350px;
+    box-shadow: 0px 0px 10px 0px black;
+    position: relative;
+    top: -31.7%;
+    right: 10%;
+}
+
+.KON_3:hover {
+    box-shadow: 10px 10px 20px 0px black;
+}
+
+/* START OF PAGE 2 STYLES */
